@@ -23,9 +23,9 @@ app.post('/mail', function(request, response) {
             user: 'iemelyanchik@gmail.com', // generated ethereal user
             pass: 'qw407372'  // generated ethereal password
         },
-        // tls: {
-        //   rejectUnauthorized: false
-        // }
+        tls: {
+          rejectUnauthorized: false
+        }
     });
 
 // setup email data with unicode symbols
