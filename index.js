@@ -20,8 +20,8 @@ app.post('/mail', function(request, response) {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'iemelyanchik@gmail.com', // generated ethereal user
-            pass: 'qw407372'  // generated ethereal password
+            user: 'eacportal@eacportal.com', // generated ethereal user
+            pass: ',htcncrbq,ekmdfh8'  // generated ethereal password
         },
         tls: {
           rejectUnauthorized: false
