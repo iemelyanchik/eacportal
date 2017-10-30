@@ -11,7 +11,7 @@ app.set('views', __dirname + '/');
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('index');
+  response.sendFile(__dirname + '/index.html');
 });
 
 app.post('/mail', function(request, response) {
