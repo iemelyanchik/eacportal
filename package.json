@@ -1,7 +1,12 @@
 {
-  "name": "portal",
+  "name": "crypto-coral-183400",
   "version": "4.0.0-beta",
   "description": "Agency is a one page HTML theme for Bootstrap.",
+  "mail": "index.js",
+  "starts": {
+    "start": "node index.js",
+    "deploy": "gcloud app deploy"
+  },
   "keywords": [
     "css",
     "sass",
@@ -10,7 +15,6 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/agency",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
     "email": "feedback@startbootstrap.com"
