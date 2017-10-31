@@ -1,5 +1,5 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const app = express();
 const nodemailer = require('nodemailer');
 
 app.set('port', (process.env.PORT || 5000));
@@ -8,10 +8,10 @@ app.use(express.static(__dirname + '/'));
 
 // views is directory for all template files
 app.set('views', __dirname + '/');
-app.set('view engine', 'ejs');
+//app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.sendFile(__dirname + '/index.html');
+    response.sendFile(__dirname + '/index.html');
 });
 
 app.post('/mail', function(request, response) {
@@ -24,7 +24,7 @@ app.post('/mail', function(request, response) {
             pass: ',htcncrbq,ekmdfh8'  // generated ethereal password
         },
         tls: {
-          rejectUnauthorized: false
+            rejectUnauthorized: false
         }
     });
 
@@ -34,7 +34,7 @@ app.post('/mail', function(request, response) {
         to: 'eacportal@eacportal.com', // list of receivers
         subject: 'Тест отправки', // Subject line
         text: 'Какой-то текст', // plain text body
-        html: '<b>Посоны, не ссым, это бог программирования тестит)</b>' // html body
+        html: '<b>Посоны, не ссым, это бог программирования тестит</b>' // html body
     };
 
 // send mail with defined transport object
@@ -54,5 +54,5 @@ app.post('/mail', function(request, response) {
 
 
 app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
+    console.log('Node app is running on port', app.get('port'));
 });
