@@ -4,7 +4,7 @@
   "description": "Agency is a one page HTML theme for Bootstrap.",
   "mail": "index.js",
   "starts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "deploy": "gcloud app deploy"
   },
   "keywords": [
