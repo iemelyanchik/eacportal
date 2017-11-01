@@ -1,37 +1,17 @@
 {
-  "name": "crypto-coral-183400",
-  "version": "4.0.0-beta",
-  "description": "Agency is a one page HTML theme for Bootstrap.",
+  "name": "appeacportal",
+  "version": "1.0.0",
+  "description": "Certifying",
   "mail": "index.js",
   "starts": {
     "start": "node server.js",
     "deploy": "gcloud app deploy"
   },
-  "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-    "email": "feedback@startbootstrap.com"
-  },
-  "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
-  },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "express": "^4.16.2",
     "font-awesome": "4.7.0",
+    "google-cloud": "^0.57.0",
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1",
     "nodemailer": "^4.2.0",
