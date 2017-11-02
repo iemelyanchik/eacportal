@@ -5,7 +5,7 @@ var nodemailer = require('nodemailer');
 app.use(express.static(__dirname + '/'));
 
 // views is directory for all template files
-app.set('views', __dirname + '/');
+//app.set('views', __dirname + '/');
 //app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
