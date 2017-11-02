@@ -7,6 +7,9 @@
     "start": "node server.js",
     "deploy": "gcloud app deploy"
   },
+  "engines": {
+    "node": "9.0.0"
+  },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "express": "^4.16.2",
