@@ -4,7 +4,7 @@
   "description": "Certifying",
   "mail": "index.js",
   "starts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "deploy": "gcloud app deploy"
   },
   "engines": {
