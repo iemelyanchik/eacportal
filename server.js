@@ -53,8 +53,8 @@ app.post('/uploads', function(req, res) {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'eacportal@eacportal.com', // generated ethereal user
-            pass: ',htcncrbq,ekmdfh8'  // generated ethereal password
+            user: 'mail@gmail.com', // generated ethereal user
+            pass: 'password'  // generated ethereal password
         },
         tls: {
             rejectUnauthorized: false
@@ -94,8 +94,8 @@ console.log(req);
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'eacportal@eacportal.com', // generated ethereal user
-            pass: ',htcncrbq,ekmdfh8'  // generated ethereal password
+            user: 'mail@gmail.com', // generated ethereal user
+            pass: 'password'  // generated ethereal password
         },
         tls: {
             rejectUnauthorized: false
